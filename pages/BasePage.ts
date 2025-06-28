@@ -16,7 +16,7 @@ export class BasePage {
         this.resetAppStateLink = page.locator('[data-test="reset-sidebar-link"]');
         this.closeSideBar = page.getByRole('button', { name: 'Close Menu' })
     }
-//*[@id="react-burger-menu-btn"]
+
     async openMenu() {
         await this.menuButton.evaluate((button: HTMLButtonElement) => {
             button.click();

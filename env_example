@@ -8,5 +8,5 @@ CHECKOUT_LAST_NAME=Doe
 CHECKOUT_ZIP_CODE=12345
 
 # Test products
-TEST_PRODUCT_1=Sauce Labs Backpack
-TEST_PRODUCT_2=Sauce Labs Bike Light
+TEST_PRODUCT_1="Sauce Labs Backpack"
+TEST_PRODUCT_2="Sauce Labs Bike Light"
