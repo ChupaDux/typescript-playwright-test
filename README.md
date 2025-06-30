@@ -85,7 +85,7 @@ npx playwright install chromium
 cp .env.example .env
 ```
 
-The `.env` should have everything **EXCEPT** `TEST_USERNAME` and `TEST_PASSWORD`, you can use any user you want to run same tests with different users., for example, **TEST_USERNAME=error_user**
+The `.env.example` already has necessary variables provided **EXCEPT** `TEST_USERNAME` and `TEST_PASSWORD`, you can use any user you want to run same tests with different users., for example, **TEST_USERNAME=error_user**
 ```env
 TEST_USERNAME={YOUR_PROVIDED_USER}
 TEST_PASSWORD={YOUR_PROVIDED_USER_PASSWORD}
