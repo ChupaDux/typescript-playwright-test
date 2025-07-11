@@ -82,7 +82,7 @@ test.describe('SauceDemo E-Commerce Tests', () => {
         await checkoutPage.finishOrder();
         await checkoutCompletePage.verifyOrderComplete();
 
-        // Return home and verify cart is empty
+        // Return home and verify the cart is empty
         await checkoutCompletePage.backToHome();
         await inventoryPage.verifyInventoryPage();
         await inventoryPage.verifyCartItemCount(0);
@@ -98,7 +98,7 @@ test.describe('SauceDemo E-Commerce Tests', () => {
         await inventoryPage.openMenu();
         await inventoryPage.resetAppState();
 
-        // Verify cart is empty
+        // Verify the cart is empty
         await inventoryPage.verifyCartItemCount(0);
     });
 
